@@ -1,0 +1,29 @@
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+RESOLUÇÃO:
+Seguindo os exemplos do vídeo teremos 5 variáveis:
+1. nome: Vai armazenar o nome do usuário e vai ser do tipo caracter.
+2. cpf: Vai armazenar o cpf do usuário e vai ser do tipo inetiro.
+3. rg: Vai armazenar o rg do usuário e vai ser do tipo inteiro.
+4. altura: Vai armazenar a altura do usuário e vai ser do tipo real.
+5. endereco: Vai armazenar o endereço do usuário e vai ser do tipo caracter.
+
+Atribuição das variáveis:
+Irei utlizar o símbolo "<-" para atribuir valor a variável conoforme a explicação.
+
+nome <- "José Almeida da Silva"
+cpf <- 12345678900
+rg <- 9517530
+altura <- 1,78
+endereco <- "Rua A, 380 - Centro _- Recife/PE"
