@@ -1,0 +1,23 @@
+Um aluno do ensino fundamental precisa fazer como tarefa de casa a tabuada 
+de alguns números inteiros, como nos exemplos em anexo.
+
+Para ajudar esse aluno, você deve elaborar um algoritmo que solicite que seja 
+digitado um número inteiro e que no final imprima o resultado da tabuada desse número.
+
+RESOLUÇÃO:
+
+Var
+   numero, i : inteiro
+
+Inicio
+   escreva("Digite um número: ")
+   leia(numero)
+   escreval("TABUADA DO ", numero)
+
+   para i de 1 ate 10 faca
+        escreval(numero, " * ", i, " = ", numero * i)
+   fimpara
+
+Fimalgoritmo
+
+   
