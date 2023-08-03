@@ -1,0 +1,19 @@
+Considere o array [3, 7, 9, 1, 0].
+
+O primeiro elemento inserido foi o 3, o segundo foi o 7 e assim por diante, seguindo a ordem.
+
+Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas regras de operações, 
+qual seria a sequência dos números removidos em cada uma delas para esvaziá-las completamente 
+utilizando o array mencionado?
+
+FILA: Nas filas o primeiro elemento a ser inserido tamabém vai ser o primeiro a sair 
+(ser removido), portanto serão removidos na mesma ordem que foram inseridos:3, 7, 9, 1, 0.
+
+LISTA: Nas listas não existe uma ordem a ser seguida como nas filas e com isso podemos 
+adicionar e remover elementos em qualquer local da lista através de métodos como:
+push(), shift() e splice() por exemplo.
+Exemplo: 9, 1, 3, 7, 0.
+
+PILHA: Nas pilhas acontece o inverso das filas, o primeiro a entrar (inserido) será o
+último a sair (removido): 0, 1, 9, 7, 3, 
+ 
