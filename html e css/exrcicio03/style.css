@@ -3,7 +3,7 @@ body {
     background: #f6f1f1;
 }
 
-header {
+.cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,11 +16,16 @@ h1 {
     font-size: 3rem;
 }
 
-header a {
+#menu {
     font-size: 1.25rem;
     text-decoration: none;
     color: rgb(29, 89, 94);
     font-weight: bold;
+}
+
+#menu:hover {
+    color: rgb(51, 69, 181);
+    font-size: 1.3rem;
 }
 
 main {
