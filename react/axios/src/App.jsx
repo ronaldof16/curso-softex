@@ -1,11 +1,13 @@
-import Get from "./componentes/Get"
+//import Get from "./componentes/Get"
+import Post from "./componentes/Post"
 
 
 function App() {
 
   return (
     <>
-      <Get />
+      {/* <Get /> */}
+      <Post />
     </>
   )
 }
