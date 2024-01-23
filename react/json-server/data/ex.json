@@ -1,0 +1,21 @@
+{
+    "produtos": [
+        {
+            "id": 10,
+            "nome": "caneta",
+            "preço": "R$ 1,50"
+        },
+
+        {
+            "id": 11,
+            "nome": "caderno",
+            "preço": "R$ 4,30"
+        },
+
+        {
+            "id": 12,
+            "nome": "lápis",
+            "preço": "R$ 1,25"
+        }
+    ]
+}
