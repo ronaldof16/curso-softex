@@ -1,21 +1,29 @@
 {
-    "produtos": [
-        {
-            "id": 10,
-            "nome": "caneta",
-            "preço": "R$ 1,50"
-        },
-
-        {
-            "id": 11,
-            "nome": "caderno",
-            "preço": "R$ 4,30"
-        },
-
-        {
-            "id": 12,
-            "nome": "lápis",
-            "preço": "R$ 1,25"
-        }
-    ]
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "caneta",
+      "preco": "1,50"
+    },
+    {
+      "id": "2",
+      "nome": "caderno",
+      "preco": "4,30"
+    },
+    {
+      "id": "3",
+      "nome": "lápis",
+      "preco": "1,25"
+    },
+    {
+      "id": "4",
+      "nome": "Bolsa",
+      "preco": "43,50"
+    },
+    {
+      "id": "5978",
+      "nome": "Estojo",
+      "preco": "4,75"
+    }
+  ]
 }
