@@ -1,15 +1,18 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 const Post = () => {
     const [produto, setProduto] = useState([])
 
-    async function teste() {
-        await fetch('http://localhost:3000/produtos')
-        .then((r) => r.json())
-        .then((r) => setProduto(r))
-        console.log(produto)
-    }
+    useEffect(() => {
+        async function teste() {
+            await fetch('http://localhost:3000/produtos')
+            .then((r) => r.json())
+            .then((r) => setProduto(r))
+            console.log(produto)
+        }
+        teste();
+    }, []);
     
     const [nome, setNome] = useState('');
     const [preco, setPreco] = useState('');
@@ -40,7 +43,7 @@ const Post = () => {
                 <li key={item.id}>{item.nome} - R$ {item.preco}</li>
             ))} 
         </ul>
-        <button style={{ marginBottom: '1rem'}} onClick={teste}>Get</button>
+        {/* <button style={{ marginBottom: '1rem'}} onClick={teste}>Get</button>*/ }
         <form onSubmit={postar}>
             <div>
                 <label style={{ display: 'block'}} htmlFor='nome'>Nome</label>
