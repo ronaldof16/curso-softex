@@ -13,6 +13,7 @@ import ErrorPage from './routes/ErrorPage.jsx';
 //Componente base
 import Home from './routes/Home.jsx';
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />
-      }
+      }, 
     ]
   },
  /*{
