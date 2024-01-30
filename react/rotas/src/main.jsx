@@ -10,16 +10,30 @@ import Contact from './routes/Contact.jsx';
 //Página de erro
 import ErrorPage from './routes/ErrorPage.jsx';
 
+//Componente base
+import Home from './routes/Home.jsx';
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
+    //componente base
+    children: [
+      {
+        path: '/',
+        element: <Home />
+      },
+      {
+        path: 'contact',
+        element: <Contact />
+      }
+    ]
   },
-  {
+ /*{
     path: 'contact',
     element: <Contact />
-  }
+  }*/
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
